@@ -70,6 +70,17 @@ section {
 
 
 @media screen and (max-width: 576px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   }
+
+    main {
+        width: 100%;
+        padding: 0%;
+    }
+
     .img_container {
         border: 1px solid blue;
         background-color: blue;
@@ -81,5 +92,12 @@ section {
     section {
         width: 250px;
         height: auto;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    main {
+        width: auto;
     }
 }
